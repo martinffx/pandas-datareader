@@ -8,7 +8,6 @@ from pandas_datareader.data import DataReader
 
 
 class TestOptionsWarnings(object):
-
     def test_options_source_warning(self):
         with tm.assert_produces_warning():
             web.Options('aapl')
